@@ -1,7 +1,7 @@
 module.exports = (basepath, hostname, size, id) => `apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: pv-local-${size}-${id}
+  name: pv-local-${String(size).toLowerCase()}-${id}
 spec:
   capacity:
     storage: ${size}
