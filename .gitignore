@@ -1,5 +1,6 @@
-# Render result
-rendered.yaml
+# Results
+create-directories.sh
+persistent-volumes.yaml
 
 # Logs
 logs

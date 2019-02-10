@@ -11,6 +11,6 @@ const rendered = templates.map(t => t.join(spacer)).join(spacer);
 const mkdirTemplates = persistentVolumes.map(({ size, count }) => Array.from(Array(count)).map((_, i) => 
     `${basepath}${size}-${i}`));
 const mkdirRendered = mkdirTemplates.map(t => t.join(' ')).join(' ');
-console.log(`mkdir ${mkdirRendered}`);
 
-fs.writeFileSync('./rendered.yaml', rendered);
+fs.writeFileSync('./persistent-volumes.yaml', rendered);
+fs.writeFileSync('./create-directories.sh', `mkdir ${mkdirRendered}`);
