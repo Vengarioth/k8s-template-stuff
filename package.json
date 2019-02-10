@@ -1,0 +1,25 @@
+{
+  "name": "k8s-template-stuff",
+  "version": "0.1.0",
+  "description": "Some templating for k8s",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vengarioth/k8s-template-stuff.git"
+  },
+  "keywords": [
+    "k8s",
+    "kubernetes",
+    "templating"
+  ],
+  "author": "Andreas Fischer (https://twitter.com/vengarioth)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vengarioth/k8s-template-stuff/issues"
+  },
+  "homepage": "https://github.com/Vengarioth/k8s-template-stuff#readme"
+}
